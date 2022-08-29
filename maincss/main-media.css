@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*mobile*/
+@media screen and (max-width: 639px) {
+  .content1 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .cont1-2 {
+    background: url(/images/allin_back.jpg) no-repeat right;
+    background-size: cover;
+    position: relative;
+  }
+  .content1 svg {
+    position: absolute;
+    top: 36.9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .content2 {
+    display: none;
+  }
+  .content3 {
+    height: 130vh;
+  }
+  .content3 svg {
+    position: absolute;
+    top: 50%;
+    left: 52.19%;
+    transform: translate(-50%, -50%);
+  }
+}
+/*tablet*/
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .content1 {
+    height: 170vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .cont1-2 {
+    background: url(/images/allin_back.jpg) no-repeat right;
+    background-size: cover;
+    position: relative;
+  }
+  .content1 svg {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+  }
+  .content2 {
+    display: none;
+  }
+}
+
+/*pc*/
+@media screen and (min-width: 1024px) {
+  .content2_mt {
+    display: none;
+  }
+}
