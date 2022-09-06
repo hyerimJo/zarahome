@@ -1,8 +1,8 @@
 @charset "utf-8";
 /*mobile*/
 @media screen and (max-width: 639px) {
-  .path {
-    stroke-width: 10px;
+  .footer {
+    height: 100vh;
   }
   .footer svg {
     position: absolute;
@@ -14,10 +14,10 @@
     flex-direction: column;
   }
   .foot1 {
-    margin-bottom: 10%;
+    margin: 10% auto;
   }
   .foot2 {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   .foot3 {
     display: none;
@@ -26,8 +26,8 @@
 
 /*tablet*/
 @media screen and (min-width: 640px) and (max-width: 1024px) {
-  .path {
-    stroke-width: 10px;
+  .footer {
+    height: 100vh;
   }
   .footer svg {
     position: absolute;
@@ -40,10 +40,10 @@
     flex-direction: column;
   }
   .foot1 {
-    margin-bottom: 10%;
+    margin: 10% auto;
   }
   .foot2 {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   .foot3 {
     display: none;

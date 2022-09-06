@@ -33,7 +33,8 @@ section {
 }
 
 .header {
-  background: url(../images/visual.jpg) center center;
+  background: url(../images/visual.jpg) center center no-repeat;
+  background-size: cover;
   background-color: #000;
   box-sizing: border-box;
   overflow: hidden;
@@ -94,6 +95,7 @@ section {
 }
 .header svg {
   width: 100%;
+  height: 77vh;
   position: absolute;
   top: 62.5%;
   left: 65%;
@@ -161,15 +163,16 @@ section {
 
 /*footer*/
 .footer {
-  height: 100vh;
+  height: 115vh;
   position: relative;
   overflow: hidden;
 }
 .footer svg {
   width: 100%;
+  height: 30vh;
   position: absolute;
   top: 10%;
-  left: 68.68%;
+  left: 69.4%;
   transform: translate(-50%, -50%);
 }
 

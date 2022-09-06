@@ -8,11 +8,12 @@
     grid-template-rows: repeat(2, 1fr);
   }
   .cont1-2 {
-    background: url(/images/allin_back.jpg) no-repeat right;
+    background: url(../images/allin_back.jpg) no-repeat right;
     background-size: cover;
     position: relative;
   }
   .content1 svg {
+    height: 85vh;
     position: absolute;
     top: 36.9%;
     left: 50%;
@@ -26,26 +27,48 @@
   }
   .content3 svg {
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 52.19%;
     transform: translate(-50%, -50%);
+  }
+  .pulia02 {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  }
+  .pulia03 {
+    position: absolute;
+    top: 85%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  }
+  .path {
+    stroke-width: 7px;
+  }
+  .path2,
+  .path5 {
+    stroke-width: 5px;
   }
 }
 /*tablet*/
 @media screen and (min-width: 640px) and (max-width: 1024px) {
   .content1 {
-    height: 170vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
   }
   .cont1-2 {
-    background: url(/images/allin_back.jpg) no-repeat right;
+    background: url(../images/allin_back.jpg) no-repeat right;
     background-size: cover;
     position: relative;
   }
   .content1 svg {
     width: 100%;
+    height: 85vh;
     position: absolute;
     top: 35%;
     left: 63%;
@@ -54,11 +77,44 @@
   .content2 {
     display: none;
   }
+  .content3 {
+    height: 170vh;
+  }
+  .content3 svg {
+    height: 170vh;
+    position: absolute;
+    top: 50%;
+    left: 52.19%;
+    transform: translate(-50%, -50%);
+  }
+  .pulia02 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  }
+  .pulia03 {
+    position: absolute;
+    top: 86%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+  }
+  .path {
+    stroke-width: 5px;
+  }
+  .path4 {
+    stroke-width: 6.5px;
+  }
 }
 
 /*pc*/
 @media screen and (min-width: 1024px) {
   .content2_mt {
     display: none;
+  }
+  .path {
+    stroke-width: 5px;
   }
 }
