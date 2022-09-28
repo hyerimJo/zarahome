@@ -1,8 +1,11 @@
 @charset "utf-8";
 /*mobile*/
 @media screen and (max-width: 639px) {
+  * {
+    font-size: 13px;
+  }
   .content1 {
-    height: 150vh;
+    height: 170vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);

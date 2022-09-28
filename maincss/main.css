@@ -94,11 +94,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
 }
 .c1-2_txt span {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -220,13 +220,13 @@
 .content2_mt .c2_in2 .c2_txt2 {
   position: absolute;
   top: 23%;
-  left: 25%;
+  left: 26%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 17px;
 }
 .content2_mt .c2_in2 .c2_txt2 .t2_in span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 .content2_mt .c2_in2 .c2_txt2 .c2_more {

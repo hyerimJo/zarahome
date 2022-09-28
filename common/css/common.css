@@ -57,7 +57,6 @@ section {
   z-index: 1;
 }
 .menubar p {
-  width: 38px;
   height: 3.5px;
   background: #4f3a1e;
   transition: all 0.5s;
@@ -163,7 +162,7 @@ section {
 
 /*footer*/
 .footer {
-  height: 115vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
@@ -178,7 +177,7 @@ section {
 
 .foot {
   position: absolute;
-  top: 63%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -187,8 +186,6 @@ section {
   grid-template-rows: repeat(2, 1fr);
 }
 .foot1 {
-  margin-top: 40px;
-  text-align: center;
   line-height: 2;
 }
 .foot2 {
@@ -198,31 +195,32 @@ section {
   outline: none;
 }
 .foot2-1 {
-  width: 300px;
+  width: 320px;
   height: 40px;
-  padding-left: 60px;
+  text-align: center;
   border: 0;
   border-bottom: 1px solid #4f3a1e;
   background: #f8f8f3;
 }
 .foot2-2 {
-  width: 360px;
+  width: 100%;
   margin: 10px auto 0;
 }
-.foot2-2 ul {
-  margin: 20px auto;
+.foot2-2 p {
+  margin-top: 20px;
 }
-.foot2-2 ul li {
-  float: left;
+.foot2-2 ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .foot2-2 ul li img {
-  width: 60%;
+  width: 50%;
 }
 .app_download {
   margin-top: 70px;
-}
-.f2_ul2 {
-  width: 120px;
 }
 
 .foot3 {

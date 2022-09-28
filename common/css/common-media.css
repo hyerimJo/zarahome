@@ -14,10 +14,7 @@
     flex-direction: column;
   }
   .foot1 {
-    margin: 10% auto;
-  }
-  .foot2 {
-    margin-bottom: 10%;
+    text-align: center;
   }
   .foot3 {
     display: none;
@@ -41,6 +38,9 @@
   }
   .foot1 {
     margin: 10% auto;
+  }
+  .foot1 {
+    text-align: center;
   }
   .foot2 {
     margin-bottom: 10%;
